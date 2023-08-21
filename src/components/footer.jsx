@@ -16,25 +16,12 @@ const footer = () => {
       <div className="row justify-content-center justify-content-md-start">
         <div className="col-md-4 col-lg-4 mb-4 mb-md-0 ">
           <h2 className='footer-title mb-3'><b>Contact</b></h2>
-          <div className='mb-3'><p><b>Address:</b>  Thika town, Naltex building, 2nd floor</p> </div>
-          <div className='mb-3'><p><b>Phone:</b>  <a className='footer-tel' href="tel:+1234567890">Call us at +1 (234) 567-890</a></p> </div>
+          <div className='mb-3'><p><b>Address:</b> Bengaluru Karnataka</p> </div>
+          <div className='mb-3'><p><b>Phone:</b>  <a className='footer-tel' href="tel:+1234567890">Call us at 91003 81758</a></p> </div>
           <div className='mb-4'><p><b>Hours:</b>  From 8 a.m To 6 p.m</p> </div>
-          <div className='mb-3'><p><b>Follow the developer</b></p> </div>
-          <div className="socials d-flex gap-3">
-          <Link to='https://discord.com/channels/1027937184768081950/1027937184768081952' id='footer-link' target='_blank' className='gap-3'>
-          <BsDiscord />
-          </Link>
-          <Link to='https://twitter.com/eclarkhalid' id='footer-link' target='_blank' className='gap-3'>
-          <BsTwitter />
-          </Link>
-          <Link className='gap-3' id='footer-link'>
-          <BsFacebook />
-          </Link>
-          <Link to='https://app.slack.com/client/T0195LMKD1R/D04QEBN1J80/rimeto_profile/U04PQHERFM1?cdn_fallback=2' id='footer-link' target='_blank' className='gap-3'>
-          <BsSlack />
-          </Link>
-          </div>
-        </div>
+           {/* <div className='mb-3'><p><b>Follow the developer</b></p> </div> */}
+          
+         </div> 
         <div className="col-md-2 col-lg-2 mb-3 mb-md-0">
           <h2 className='footer-title mb-3'><b>About</b></h2>
           <div className='mb-3'> <Link to='/about' id='footer-links'>About Us</Link>  </div>
